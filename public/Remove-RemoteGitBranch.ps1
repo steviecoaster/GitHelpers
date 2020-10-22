@@ -16,7 +16,7 @@ function Remove-RemoteGitBranch {
     Remove-RemoteGitBranch -Branch GH1234 -Confirm:$false
     
     #>
-    [cmdletbinding()]
+    [cmdletbinding(HelpUri="https://github.com/steviecoaster/GitHelpers/wiki/Remove-RemoteGitBranch")]
     param(
         [Parameter(Mandatory = $true, Position = 0)]
         [String]
